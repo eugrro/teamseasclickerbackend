@@ -10,7 +10,7 @@ const dbName = './db.json';
 const lbName = './leaderboard.json';
 const fpName = './fingerprint.json';
 
-var port = 4000;
+var port = 3000;
 
 function addClick(data) {
     var file_content = fs.readFileSync(dbName);
